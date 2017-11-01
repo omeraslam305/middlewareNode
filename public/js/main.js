@@ -1,6 +1,6 @@
 function calculateTax(){
-    var amount = $("#amt").val();
-    var percent = $("#percent").val();
+    var amount = parseInt($("#amt").val());
+    var percent = parseInt($("#percent").val());
     var currency = $("#currency option:selected").val();
     var symbol = "";
     if (currency == "Dollar") {
